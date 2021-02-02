@@ -6,7 +6,7 @@ public class prueba4 {
     DepositoCombustible tanque = new DepositoCombustible(40.0,40.0);
 
 	@Test
-	public void estaLleno() {
+	public void estaLlenoTest() {
 		boolean resultado = tanque.estaLleno();
 		boolean esperado = true;
 		assertEquals(esperado, resultado);
