@@ -94,7 +94,7 @@ public class DepositoCombustible {
     * @param amount cantidad de fuel consumida
     * 
     */
-	public void consumir(double amount){
-       depNivel = depNivel - amount;
+	public double consumir(double amount){
+       return depNivel = depNivel - amount;
     }
 }
